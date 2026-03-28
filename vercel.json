@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "index.js": {
+      "runtime": "nodejs22.x",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

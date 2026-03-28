@@ -1,0 +1,12 @@
+|-- .env
+|-- .gitignore
+|-- .vercel
+    |-- project.json
+    |-- README.txt
+|-- index.js
+|-- LICENSE
+|-- nodemon.json
+|-- package-lock.json
+|-- package.json
+|-- README.md
+|-- vercel.json
